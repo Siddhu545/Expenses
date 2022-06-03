@@ -27,7 +27,7 @@ const App = () => {
         // editable={false}
         //keyboardType="number-pad"
       />
-      <Button title="Add user" onPress={onAddUser} />
+      <Button title="Add Amount" onPress={onAddUser} />
       <View>
         {names.map(name => (
           <Text style={styles.user} key={name}>
